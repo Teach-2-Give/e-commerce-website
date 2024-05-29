@@ -1,0 +1,75 @@
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, #ff7043 0%, #ff7043 100%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) grayscale(1) brightness(10);
+}
+.carousel-inner .row {
+  position: relative;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: auto;
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: 15px;
+}
+
+.carousel-control-next {
+  right: 15px;
+}
+.shopy-bg-info{
+  background-color: #FCEAE8;
+}
+.categories img{
+  width: 100px;
+}
+.shopy-btn{
+  background-image: linear-gradient(to bottom, #ff7043 0%, #ff7043 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 9px 25px;
+  border: none;
+}
+.hero-m{
+  margin-top: 70px;
+}
+
+.navbar-logo {
+  width: 60px;
+  height: 40px;
+}
+
+/* CSS in styles.css */
+
+.bg-watch {
+  background-color: #f0b3a1; /* Replace with the color you want */
+}
+
+.bg-bag {
+  background-color: #f0b3a1; /* Replace with the color you want */
+}
+
+.bg-shoes {
+  background-color: #f0b3a1; /* Replace with the color you want */
+}
+
+@media screen and (max-width: 768px) {
+  .shopy-btn {
+    padding: 6px 20px;
+    font-size: 13px;
+    width: 100px;
+    height: 30px;
+  }
+}
